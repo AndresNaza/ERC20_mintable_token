@@ -1674,84 +1674,14 @@
   },
   "networks": {
     "3": {
-      "events": {
-        "0x6faf93231a456e552dbc9961f58d9713ee4f2e69d15f1975b050ef0911053a7b": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "purchaser",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "beneficiary",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "value",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            }
-          ],
-          "name": "TokensPurchased",
-          "type": "event"
-        }
-      },
+      "events": {},
       "links": {},
-      "address": "0x6A6bbAf4266c76fb85D7d30C07d85417A9c62acd",
-      "transactionHash": "0x31386eeb76a78a46f7d73846644e139dbfe3eb12437befa760b7f4ea832b9736"
-    },
-    "5777": {
-      "events": {
-        "0x6faf93231a456e552dbc9961f58d9713ee4f2e69d15f1975b050ef0911053a7b": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "purchaser",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "beneficiary",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "value",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            }
-          ],
-          "name": "TokensPurchased",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x489A46Ce3b6Be56Efd3E4DacedbD5058A1ff48f1",
-      "transactionHash": "0xfc65d5af18f04acb4c122c273e4ef793d258535045231c8469710361aeab52a0"
+      "address": "0x3F4DAd70aB66343E27998817ce4B7e117651d20d",
+      "transactionHash": "0x83821bdf2e2343cdd7b2a6c309fbaddd533155b298fa0b4fed4efbe2b9763725"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-28T18:16:15.065Z",
+  "updatedAt": "2021-09-28T19:32:14.382Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
