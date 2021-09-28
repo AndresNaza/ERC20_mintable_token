@@ -89,16 +89,18 @@ class App extends Component {
     return (
       <div className="App">
         <h1>StarDucks Cappucino Token Sale</h1>
-        <p>Get your Tokens today!</p>
+
+        <p><strong>Current total token supply: {this.state.tokenSupply} CAPPU Tokens</strong></p>
+
         <h2>Kyc Whitelisting</h2>
         Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
         <button type="button" onClick={this.handleKycWhitelisting}>Add to Whitelist</button>
-        <h2>Buy Tokens</h2>
+        
+        <h2>Get your Tokens today!</h2>
         <p>If you want to buy tokens, send Wei to this address: {this.state.tokenSaleAddress}</p>
         <p>You currently have: {this.state.userTokens} CAPPU Tokens</p>
         <button type="button" onClick={this.handleBuyTokens}>Buy more tokens</button>
 
-        <p>Total token supply: {this.state.tokenSupply} CAPPU Tokens</p>
       </div>
     );
   }
